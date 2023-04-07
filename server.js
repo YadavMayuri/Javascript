@@ -123,21 +123,119 @@
 //         console.log("you are under age")
 // }
 
-var age = 5;
-switch (true) {
-    case age > 80:
-        console.log("not allow- overage");
-        break;
-    case age == 18:
-        console.log("allow for LL");
-        break;
-    case age > 18:
-        console.log("allow");
-        break;
-    default:
-        console.log("not allow-underage");
+// var age = 5;
+// switch (true) {
+//     case age > 80:
+//         console.log("not allow- overage");
+//         break;
+//     case age == 18:
+//         console.log("allow for LL");
+//         break;
+//     case age > 18:
+//         console.log("allow");
+//         break;
+//     default:
+//         console.log("not allow-underage");
 
-}
+// }
+// -------------------------------------------------------------------------
+// var number= 233;
+// if(number % 2==0){
+//     console.log("number is even")
+// }else{
+//     console.log("number is odd")
+// }
 
+// var number=233;
+// switch(true){
+//     case number%2==0:
+//         console.log("even number")
+//         break;
+//     case number%2!=0:
+//         console.log("odd number")
+//         break;
+// }
+
+// --------------------------------------------------
+// var number1=5;
+// var number2=10;
+// if(number1>number2){
+//     console.log("number1 is large")
+// }
+// else{
+//     console.log("number2 is large")
+// }
+
+// var number1=5;
+// var number2=10;
+// switch(true){
+//     case(number1>number2):
+//     console.log("number1 is big")
+//     break;
+//     case(number1<number2):
+//     console.log("number2 is big")
+//     break;
+//     case(number1===number2):
+//     console.log("numbers are equal")
+//     break;
+
+// }
+// -----------------------------------------------
+
+// var x=15;
+// var y=20;
+// var z=40;
+// if(x>y && x>z){
+//     console.log("x is greater")
+// }else if(z>x && z>y){
+//     console.log("z is greater")
+// }
+// else{
+//     console.log("y is greater")
+// }
+
+// var number1 = 15;
+// var number2 = 20;
+// var number3 = 40;
+// switch (true) {
+//     case number1 > number2 && number1 > number3:
+//         console.log("number1 is greater")
+//         break;
+//     case number2 > number1 && number2 > number3:
+//         console.log("number2 is greater")
+//         break;
+//     case number3 > number1 && number3 > number2:
+//         console.log("number3 is greater")
+//         break;
+// }
+
+
+
+// ------------------------------------------------
+
+// var number=10;
+// if(number<5 || number>25){
+//     console.log("number is not present");
+// }
+// else if(number>=5 || number<=25){
+//     console.log("number is present");
+// }
+// else{
+//     console.log("number is not present");
+// }
+
+
+
+// var number = 10;
+// var min = 5;
+// var max = 25;
+// switch (true) {
+//     case (number >= min && number <= max):
+//         console.log("number is present in range")
+//         break;
+//     default:
+//         console.log("number is  not present in range")
+//         break;
+// }
 
 
