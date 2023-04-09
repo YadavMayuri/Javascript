@@ -237,5 +237,146 @@
 //         console.log("number is  not present in range")
 //         break;
 // }
+// -----------------------------------------
+
+// functions
+
+// function add(){
+//     var a=2;
+//     var b=3;
+//     console.log(a+b)
+// }add();
+
+// function sub(){
+//     var a=1;
+//     var b=3;
+//     console.log(a-b)
+// }
+// sub();
+
+// let m=fun(45);
+// let res="the res is " + fun(45);
+
+// var a=2;
+// var b=4;
+// function res(firstpara, secondpara){
+//     console.log(firstpara*secondpara)
+// }
+// res(a,b)
 
 
+// var a=2;
+// var b=4;
+// function res(firstpara, secondpara){
+//     return firstpara * secondpara;
+// }
+// var ad=res(a,b);
+// console.log(ad);
+
+// var a=876;
+// var b=9876;
+// function greaternum( firstnumber,secondnumber){
+//     if(firstnumber>secondnumber){
+//         console.log("firstnumber is greater") ;
+//         return ;
+//     }
+//     else{
+//         console.log("secondnumber is greater");
+//         return ;
+//     }
+
+// }
+// greaternum(a,b)
+
+
+// var num= -1;
+// function check(number){
+//     if(num>0){
+//         console.log
+//     }
+// }
+
+
+// var a=2;
+// var b=4;
+// function greater(a,b){
+//     var bigger;
+//     if (a>b){
+//         bigger =a;
+//     }
+//     else{
+//         bigger = b;
+//     }
+//     bigger = bigger*2;
+//     return bigger;
+// }
+// var res= greater(a,b);
+// console.log(res);
+
+// var number= 233;
+// if(number % 2==0){
+
+// var num1=4;
+// var num2=6;
+// function gret(firstnum, secondnum){
+//     var res;
+//     if(num1>num2){
+//         console.log("num1 is greater")
+//         return num1
+//     }
+//     else{
+//         console.log("num2 is greater")
+//         return num2
+//     }
+// }
+// gret(num1,num2)
+
+
+// var x=15;
+// var y=20;
+// var z=40;
+// function check(firstnum,secondnum,thirdnum){
+//     if(x>y && x>z){
+//         console.log("x is greater")
+//         return
+//     }else if(z>x && z>y){
+//         console.log("z is greater")
+//         return
+//     }
+//     else{
+//         console.log("y is greater")
+//         return
+//     }
+// }check(x,y,z)
+
+var number=10;
+function check(number){
+    var res;
+    if(number<5 || number>25){
+       res="number is not in range";
+    }
+    else if(number>=5 || number<=25){
+        res="number is  in range";
+    }
+    else{
+        
+        res=number;
+    }
+    return res;
+}
+var print=check(number);
+console.log(print);
+
+
+// var d= 2;
+// function check(a){
+//     var res;
+//     if(d %2==0){
+//         console.log("even");
+//         return a;
+//     }else{
+//         console.log("odd");
+//     }
+    
+// }
+// check(d);
