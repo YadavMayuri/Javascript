@@ -349,23 +349,23 @@
 //     }
 // }check(x,y,z)
 
-var number=10;
-function check(number){
-    var res;
-    if(number<5 || number>25){
-       res="number is not in range";
-    }
-    else if(number>=5 || number<=25){
-        res="number is  in range";
-    }
-    else{
-        
-        res=number;
-    }
-    return res;
-}
-var print=check(number);
-console.log(print);
+// var number=10;
+// function check(number){
+//     var res;
+//     if(number<5 || number>25){
+//        res="number is not in range";
+//     }
+//     else if(number>=5 || number<=25){
+//         res="number is  in range";
+//     }
+//     else{
+
+//         res=number;
+//     }
+//     return res;
+// }
+// var print=check(number);
+// console.log(print);
 
 
 // var d= 2;
@@ -377,6 +377,82 @@ console.log(print);
 //     }else{
 //         console.log("odd");
 //     }
-    
+
 // }
 // check(d);
+
+// write a function to print numbers fro 1 to 10
+// var rengeStart=1;
+// var rangeEnd =10;
+// var num;
+// // function check(){
+//     while(rangeStart<rangeEnd){
+//         console.log (rangeStart);
+//         rangeStart++;
+//     }
+// // }
+//  var num=1;
+// if (num=rangeStart && num<=rengeEnd ){
+//  console.log(num)
+// }
+
+// --------------------------
+
+// 1- a=1; 1<10 true ; a++ = 1+1 = 2 end 
+// 2- a=2 ; 2<10 true; a++ = 2+1 =3 end
+// -------------------------
+
+
+// var rangeStart=1;
+// var rangeEnd =10;
+// var num=1;
+// while(num<=rangeEnd){
+//     console.log(num);
+//     num++;
+// }
+
+// for(var a= rangeStart; a<=rangeEnd /2; a++){
+//     console.log(a);
+
+// }
+
+// var rangeStart=10;
+// var rangeEnd=20;
+// function printnum(start, end){
+//     for(var a=start; a<=end;a+=3){
+//         console.log(a)
+//     }
+// }
+// printnum(rangeStart,rangeEnd)
+// -----------------------------------
+// var rangeStart=1;
+// var rangeEnd=100;
+var numcount=0;
+function printeven() {
+    for (var a = 10; a <= 20; a++) {
+        if (a % 2 == 1) {
+            console.log(a)
+            // console.count(a % 2 == 0)
+            numcount++
+        }
+    }
+return numcount;
+
+}
+var b = printeven()
+console.log(numcount)
+
+
+function findodd(start,end){
+    var count=0;
+    for(var i=start; i<=end; i++){
+        if(i%2==0){
+            count++
+        }
+    }
+    return count;
+}
+var even=findodd(1,10)
+console.log(even)
+
+
