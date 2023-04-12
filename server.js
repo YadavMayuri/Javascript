@@ -385,12 +385,12 @@
 // var rengeStart=1;
 // var rangeEnd =10;
 // var num;
-// // function check(){
+// function check(){
 //     while(rangeStart<rangeEnd){
 //         console.log (rangeStart);
 //         rangeStart++;
 //     }
-// // }
+// }
 //  var num=1;
 // if (num=rangeStart && num<=rengeEnd ){
 //  console.log(num)

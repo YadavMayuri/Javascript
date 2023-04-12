@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+
+</head>
+
+<body>
+    <script type="text/javascript">
+
+        //  4  --- factorial 
+        // var num = prompt('enter a number');
+        // var factorial=1;
+        // for(var i=1; i<=num;i++){
+        //     factorial = factorial*i;
+        //     console.log('factorial o fnum =',factorial);
+        // }
+        // document.write('<div>');
+        //     document.write(factorial);
+        //     document.write('</div>');
+
+        // ------------------------------------------------------------
+
+        //3-- multiply table
+        // var number = prompt('enter number',"");
+        // for(var i=1; i<=10; i++){
+        //     document.write('<div>');
+        //     var multi = i * number;
+        //     document.write(multi);
+        //     document.write('</div>');
+
+        // }
+
+        // -----------------------------------------
+
+        // 6--  reverse number
+
+        // var text = prompt('enter string');
+        // var slength = text.length;
+        // var reverse = '';
+        // for (var i = slength - 1; i >= 0; i--) {
+        //     reverse = reverse + text[i];
+        // }
+        // document.write(reverse)
+
+        // -----------------------------------------
+        //7.  Write a program that reads a set of integers, and then prints the sum of the even and odd integers.
+
+        // var user = 10;
+        // var sumeven=0;
+        // var sumodd=0;
+        // for (var i = 1; i <= user; i++) {
+        //     if (i % 2 == 0) {
+        //         document.write(i + "<br>");
+        //         sumeven = sumeven + i;
+        //     }
+        //     if (i % 2 !== 0) {
+        //         document.write(i + "<br>");
+        //         sumodd = sumodd + i;
+        //     }
+        // }
+        // document.write("Total of even number:" + sumeven)
+        // document.write("Total of odd number:" + sumodd)
+
+
+        // ----------------------------------------------------
+
+        // prime number
+        var num = prompt('enter number');
+        for (var i = 2; i < num; i++) {
+            if (num % i == 0) {
+                var res = 'number not prime'
+                break;
+            } else {
+                var res = 'number is prime'
+            }
+        }
+        document.write(res)
+
+
+
+
+    </script>
+
+</body>
+
+</html>
