@@ -43,11 +43,11 @@ var studentList = ["a", "b", "c", "d", "e", "f", "g"]
 //     console.log("s is not in our db")
 // }
 
-for(var i=0; i<= studentList.length; i++){
-    if(studentList[i]=="s" ||){
-        console.log("s is in our db")
-    }
-}
+// for(var i=0; i<= studentList.length; i++){
+//     if(studentList[i]=="s" ||  studentList[i]=="a"){
+//         console.log("s or a is in our db")
+//     }
+// }
 
 
 
