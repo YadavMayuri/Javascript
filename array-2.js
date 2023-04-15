@@ -47,11 +47,23 @@
 // console.log(findmax(arr));
 
 
-function popup(){
-    alert("This is pop up")
-}
+// function popup(){
+//     alert("This is pop up")
+// }
 // popup()
 
 
 
+function findmax(arr){
+    var max= arr[0];
+    for(var i=1; i < arr.length; i++){
+        if(arr[i]< max){
+            max=arr[i];
+        }
+    }
+    return max;
+}
+
+var arr=[23994,1000,788999,8888888855];
+console.log(findmax(arr));
 
