@@ -74,7 +74,7 @@
 // 3. if user age is below 18 then dont allow for dl
 // 4. if user age is above 80 then dont allow for dl 
 
-// var age = 81;
+// var age = 19;
 
 // if (age >80){
 //     console.log("you are over age")
@@ -91,7 +91,7 @@
 
 // switch statements
 
-// var name = "d";
+// var name = "a";
 // switch (name) {
 //     case "a":
 //         console.log("you are a");
@@ -195,29 +195,30 @@
 // }
 
 // var number1 = 15;
-// var number2 = 20;
+// var number2 = 200;
 // var number3 = 40;
 // switch (true) {
-//     case number1 > number2 && number1 > number3:
+//     case (number1 > number2 && number1 > number3):
 //         console.log("number1 is greater")
 //         break;
-//     case number2 > number1 && number2 > number3:
-//         console.log("number2 is greater")
-//         break;
+//     // case number2 > number1 && number2 > number3:
+//     //     console.log("number2 is greater")
+//     //     break;
 //     case number3 > number1 && number3 > number2:
 //         console.log("number3 is greater")
 //         break;
+//         default: console.log("no 2is big");
 // }
 
 
 
 // ------------------------------------------------
 
-// var number=10;
+// var number=100;
 // if(number<5 || number>25){
 //     console.log("number is not present");
 // }
-// else if(number>=5 || number<=25){
+// else {
 //     console.log("number is present");
 // }
 // else{
@@ -427,32 +428,33 @@
 // -----------------------------------
 // var rangeStart=1;
 // var rangeEnd=100;
-var numcount=0;
-function printeven() {
-    for (var a = 10; a <= 20; a++) {
-        if (a % 2 == 1) {
-            console.log(a)
-            // console.count(a % 2 == 0)
-            numcount++
-        }
-    }
-return numcount;
 
-}
-var b = printeven()
-console.log(numcount)
+// var numcount=0;
+// function printeven() {
+//     for (var a = 10; a <= 20; a++) {
+//         if (a % 2 == 1) {
+//             console.log(a)
+//             // console.count(a % 2 == 0)
+//             numcount++
+//         }
+//     }
+// return numcount;
+
+// }
+// var b = printeven()
+// console.log(numcount)
 
 
-function findodd(start,end){
-    var count=0;
-    for(var i=start; i<=end; i++){
-        if(i%2==0){
-            count++
-        }
-    }
-    return count;
-}
-var even=findodd(1,10)
-console.log(even)
+// function findodd(start,end){
+//     var count=0;
+//     for(var i=start; i<=end; i++){
+//         if(i%2==0){
+//             count++
+//         }
+//     }
+//     return count;
+// }
+// var even=findodd(1,10)
+// console.log(even)
 
 
