@@ -9,7 +9,7 @@
 // console.log(array.length, "length of array")
 
 
-var studentList = ["a", "b", "c", "d", "e", "f", "g"]
+// var studentList = ["a", "b", "c", "d", "e", "f", "g"]
 // console.log(studentList[2])
 
 // console.log(studentList.length)
